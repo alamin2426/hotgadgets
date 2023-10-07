@@ -1,0 +1,41 @@
+/* .navbar-nav{
+    justify-content: center !important;
+    text-align: center;
+} */
+.carousel-indicators [data-bs-target]{
+    height: 6px;
+    background-color: black;
+    border: 0px;
+    border-radius: 6px;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    width: 50px;
+}
+.carousel-indicators{
+    bottom: -50px;
+    position: absolute;
+}
+.card{
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+/* .card:hover{
+    background-color: rgba(150, 36, 36, 0.425) 10px 3px 8px;
+} */
+.cata span{
+    width: 10rem;
+    height: 5px;
+    background-color: rgb(255, 217, 1);
+    display: inline-block;
+    border-radius: 10px;
+}
+.fot li{
+    list-style: none;
+
+}
+.fot a{
+    color: rgb(255, 217, 1);
+    text-decoration: none;
+}
